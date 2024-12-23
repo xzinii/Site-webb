@@ -1,0 +1,105 @@
+/* Réinitialisation des marges et des espacements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps du site */
+body {
+    font-family: 'Poppins', sans-serif; /* Police moderne */
+    background-color: #121212; /* Fond sombre */
+    color: #036197; /* Texte clair */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Logo et titre du jeu */
+.logo {
+    position: absolute;
+    color: aqua;
+    right: 1750px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* En-tête et navigation */
+header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Section d'information - Texte minimaliste */
+#info {
+    position: absolute;
+   right: 700px;
+    transform: translateY(-50%);
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    max-width: 500px;
+}
+
+/* Sections principales */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Boutons d'appel à l'action */
+.cta-button {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Pied de page */
+footer {
+    position: absolute;
+    bottom: 20px;
+    font-size: 14px;
+}
